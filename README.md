@@ -33,7 +33,7 @@ docker compose -f docker-compose.yml exec backend cp -r /app/static_backend/. /b
 
 Сделайте форк проекта. Создайте в репозитории папку kittygram_final/.github/workflows/. Скопируйте содержимое файла kittygram_workflow.yml в файл main.yml в этой папке.
 
-В настройка своего репозитория в разделе Secrets and variables -> Actions создайте следующие Secrets:
+В настройках своего репозитория в разделе Secrets and variables -> Actions создайте следующие Secrets:
 
 DOCKER_USERNAME - имя пользователя на DockerHub
 
